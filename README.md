@@ -3,7 +3,7 @@
 This repository provides a Splunk Playground environment for testing log ingestion, forwarding, and integration with Splunk's HTTP Event Collector (HEC).
 
 ## Features
-- Configured with a lightweight **Fluentd** log forwarder for sending logs to Splunk.
+- Configured with a nginx simple container forward logs to Splunk.
 - Docker Compose setup for integrating with Splunk seamlessly.
 - Example scripts for testing log ingestion using HEC.
 
