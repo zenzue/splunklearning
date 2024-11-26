@@ -15,7 +15,7 @@ services:
     logging:
       driver: splunk
       options:
-        splunk-token: "d577fdf0-0e59-4c71-b0c8-c2ab60b546b7"
+        splunk-token: "Your_HEC_Tolen"
         splunk-url: "https://localhost:8088"
         splunk-insecureskipverify: "true"
         splunk-source: "nginx"
