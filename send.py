@@ -4,7 +4,7 @@ import time
 import json
 
 splunk_url = "https://localhost:8088/services/collector"
-splunk_token = "3b1dfa5b-b0bc-4d08-ad67-1b0922ec1c9a"
+splunk_token = "{SPLUNK_HEC_TOKEN}"
 
 def generate_random_event():
     actions = ["login", "logout", "file_upload", "file_download", "data_query"]
